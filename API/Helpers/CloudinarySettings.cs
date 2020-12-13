@@ -1,12 +1,9 @@
 namespace API.Helpers
 {
-    public class CloudinarySettings : Profile
+    public class CloudinarySettings
     {
-        public CloudinarySettings()
-        {
-            public string CloudName { get; set; }
-            public string ApiKey { get; set; }
-            public string ApiSecret { get; set; }
-        }
+        public string CloudName { get; set; }
+        public string ApiKey { get; set; }
+        public string ApiSecret { get; set; }
     }
 }
